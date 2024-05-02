@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no repeat;
+  }
+p{
+  color: black;
+  font-size: 10px;
+}
+h1{
+  color: black;
+  margin-left: 20%;
+}
+h2{
+  color:black;
+  text-align: center;
+  margin-right: 20%;
+}
+h4{
+  text-align: center;
+  color: black;
+}
+img{
+  margin-left: 20%;
+}
+.main-container{
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 165%;
+  padding: 300px;
+  background: url('BG2.jpg');
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+}
+#login {
+background-color: #ffffff;
+border: 1px solid black;
+margin: 0 auto;
+padding: 20%;
+height: 200px;
+width: 1005;
+}
+.form-container{
+  width: 400%;
+  }
+.login-box {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 530px;
+    padding: 110px;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+  }
+a:link, a:visited{
+  background-color: white;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active{
+  background-color: black;
+  color: white;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+}
+.login-button {
+  color: black;
+  padding: 15px 32px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 20px; 
+  margin: 0 auto; 
+  margin-left: 5px;
+  cursor: pointer; 
+  border-radius: 12px; 
+}
+.login-container{
+  display: flex; 
+  justify-content: flex-end;
+}
+.login-box label {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+}
+.login-box input[type="text"], .login-box input[type="password"] {
+  color: black;
+  width: 100%;
+  text-indent: 20px;
+  height: 25px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.wrapper .input-box{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.input-box i{
+  position: absolute;
+  right:5px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+a:link, a:visited{
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid black;
+}
+a:hover, a:active{
+  background-color: black;
+  color: white;
+}
